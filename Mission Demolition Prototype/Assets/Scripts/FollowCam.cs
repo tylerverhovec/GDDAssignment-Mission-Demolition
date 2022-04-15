@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowCam : MonoBehaviour
-{
+public class FollowCam : MonoBehaviour {
 
     static public GameObject POI; //The static point of interest
 
@@ -37,4 +36,4 @@ public class FollowCam : MonoBehaviour
         Camera.main.orthographicSize = destination.y + 10;
     }//FixedUpdate
 
-}
+}//FollowCam
