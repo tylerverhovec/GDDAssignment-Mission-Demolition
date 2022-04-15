@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 655409347}
   - component: {fileID: 655409346}
+  - component: {fileID: 655409348}
   m_Layer: 0
   m_Name: Slingshot
   m_TagString: Untagged
@@ -171,6 +172,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -15, z: 0}
+--- !u!114 &655409348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655409345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a1093ea171ca3249822be1f0a994a3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabProjectile: {fileID: 5656249926848933834, guid: 3e095b64bfa90f2448958cb339195db4, type: 3}
+  velocityMult: 10
+  launchPoint: {fileID: 0}
+  launchPos: {x: 0, y: 0, z: 0}
+  projectile: {fileID: 0}
+  aimingMode: 0
 --- !u!1 &703192657
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,8 +264,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703192657}
-  m_LocalRotation: {x: -0, y: 0.13052624, z: -0, w: 0.9914449}
-  m_LocalPosition: {x: 9.659258, y: 11, z: -2.5881915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 655409347}
@@ -597,8 +616,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473205195}
-  m_LocalRotation: {x: -0.37940946, y: 0.120590515, z: 0.049950223, w: 0.9159756}
-  m_LocalPosition: {x: 9.400438, y: 13, z: -3.5541172}
+  m_LocalRotation: {x: -0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 3, z: -1}
   m_LocalScale: {x: 0.5, y: 1.4140002, z: 0.5}
   m_Children: []
   m_Father: {fileID: 655409347}
@@ -613,6 +632,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1760637259}
+  - component: {fileID: 1760637260}
   m_Layer: 0
   m_Name: LaunchPoint
   m_TagString: Untagged
@@ -634,6 +654,18 @@ Transform:
   m_Father: {fileID: 655409347}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 15, z: 0}
+--- !u!122 &1760637260
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760637258}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 3
 --- !u!1 &1781672166
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,8 +740,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781672166}
-  m_LocalRotation: {x: 0.37940946, y: 0.120590515, z: -0.049950223, w: 0.9159756}
-  m_LocalPosition: {x: 9.918077, y: 13, z: -1.6222657}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 3, z: 1}
   m_LocalScale: {x: 0.5, y: 1.4140002, z: 0.5}
   m_Children: []
   m_Father: {fileID: 655409347}
