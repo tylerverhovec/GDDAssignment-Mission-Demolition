@@ -1,0 +1,209 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16301 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Git/GDDAssignment-Mission-Demolition/Mission Demolition Prototype
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61606
+Successfully changed project path to: C:/Git/GDDAssignment-Mission-Demolition/Mission Demolition Prototype
+C:/Git/GDDAssignment-Mission-Demolition/Mission Demolition Prototype
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Git/GDDAssignment-Mission-Demolition/Mission Demolition Prototype/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002195 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.514 seconds
+Domain Reload Profiling:
+	ReloadAssembly (514ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (390ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (128ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (142ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (27ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003367 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Git\GDDAssignment-Mission-Demolition\Mission Demolition Prototype\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Domain Reload Profiling:
+	ReloadAssembly (916ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (712ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.5 MB.
+System memory in use after: 68.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1944.
+Total: 2.605800 ms (FindLiveObjects: 0.116200 ms CreateObjectMapping: 0.043500 ms MarkObjects: 2.385000 ms  DeleteObjects: 0.060400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(62c134b536e9e32419c240c3c7bd94cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(62c134b536e9e32419c240c3c7bd94cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48c0d9eab86d1e1a799a292f14bc522') in 0.008148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.060820 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 1.016277 seconds  code(4) message(Build asset version error: assets/scenes/samplescene.unity in SourceAssetDB has modification time of '2020-04-17T08:35:40Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff61472f46c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff614736a69 (Unity) StackWalker::ShowCallstack
+0x00007ff6154c8d4c (Unity) GetStacktrace
+0x00007ff61561a687 (Unity) GetAssetHashAndValidate
+0x00007ff6156158de (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff615613714 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6155edbdd (Unity) CreateAssetVersionBuilder
+0x00007ff6155f4605 (Unity) ImportToObjects
+0x00007ff6155f33a8 (Unity) ImportAsset
+0x00007ff61558be18 (Unity) AssetImportWorker::Import
+0x00007ff6155b1f8c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff61563a882 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff61563c9e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff61564015e (Unity) asio::io_service::run
+0x00007ff6155db4bb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6155db510 (Unity) RunAssetImporterV2
+0x00007ff6150540d9 (Unity) Application::InitializeProject
+0x00007ff6154d30d2 (Unity) WinMain
+0x00007ff616b75f3e (Unity) __scrt_common_main_seh
+0x00007ffff9877034 (KERNEL32) BaseThreadInitThunk
+0x00007ffffaf42651 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/scenes/samplescene.unity in SourceAssetDB has modification time of '2020-04-17T08:35:40Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff61472f46c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff614736a69 (Unity) StackWalker::ShowCallstack
+0x00007ff6154c8d4c (Unity) GetStacktrace
+0x00007ff61561a687 (Unity) GetAssetHashAndValidate
+0x00007ff6156158de (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff615613714 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6155edbdd (Unity) CreateAssetVersionBuilder
+0x00007ff6155f4605 (Unity) ImportToObjects
+0x00007ff6155f33a8 (Unity) ImportAsset
+0x00007ff61558be18 (Unity) AssetImportWorker::Import
+0x00007ff6155b1f8c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff61563a882 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff61563c9e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff61564015e (Unity) asio::io_service::run
+0x00007ff6155db4bb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6155db510 (Unity) RunAssetImporterV2
+0x00007ff6150540d9 (Unity) Application::InitializeProject
+0x00007ff6154d30d2 (Unity) WinMain
+0x00007ff616b75f3e (Unity) __scrt_common_main_seh
+0x00007ffff9877034 (KERNEL32) BaseThreadInitThunk
+0x00007ffffaf42651 (ntdll) RtlUserThreadStart
+
+========================================================================
+Received Import Request.
+  Time since last request: 356.447827 seconds.
+  path: Assets/Scenes/_Scene_0.unity
+  artifactKey: Guid(ee170359f0f13b3488387d7ba6598250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/_Scene_0.unity using Guid(ee170359f0f13b3488387d7ba6598250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0a1a3d2008cd866727ace224ffce0d') in 0.007155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.993991 seconds.
+  path: Assets/Scenes/Mat_Ground.mat
+  artifactKey: Guid(cc5568e19dc26db47b5171a2a8e5cbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mat_Ground.mat using Guid(cc5568e19dc26db47b5171a2a8e5cbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e5ca2dcc42c374838e8c6ebb09133d') in 0.108155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.950888 seconds.
+  path: Assets/Scenes/Mat_Ground.mat
+  artifactKey: Guid(cc5568e19dc26db47b5171a2a8e5cbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mat_Ground.mat using Guid(cc5568e19dc26db47b5171a2a8e5cbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915d59696a8897d4611a017e7ccb1d52') in 0.018338 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
